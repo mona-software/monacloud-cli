@@ -15,7 +15,7 @@ import {
 import { delimiter, dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-export const VERSION = '0.4.0';
+export const VERSION = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8')).version;
 export const START_MARKER = '<!-- monacloud:start -->';
 export const END_MARKER = '<!-- monacloud:end -->';
 export const ENV_START_MARKER = '# monacloud:start';
