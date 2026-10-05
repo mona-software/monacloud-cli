@@ -181,3 +181,5 @@ monacloud deploy --git                # dùng origin như trước
 | Domain riêng | `cloud_app_domain_add` qua MCP, làm theo CNAME trả về |
 
 ZIP và auth do MCP 0.4.0 xử lý, tối đa 80 MiB; loại `.env*`, `*.pem`, `.git`, `node_modules`, symlink, áp dụng ignore rules, giữ dist mặc định. Human đăng ký MONA Pass/device flow và nạp ví khi hết credit 20k. Recipe `app-tu-git` giữ slug tương thích, mô tả mới **Đưa app lên web (git hoặc thư mục)**. [Đầy đủ tuỳ chọn và luồng lỗi](docs/commands.md).
+
+**MONA Cloud CLI thuộc bộ MONA Cloud của The MONA Group.**

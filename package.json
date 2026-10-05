@@ -1,6 +1,6 @@
 {
   "name": "monacloud",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Bootstrap MONA Cloud instructions and MCP configuration in an AI-assisted project.",
   "license": "MIT",
   "type": "module",
@@ -19,5 +19,14 @@
   },
   "engines": {
     "node": ">=20"
+  },
+  "author": "MONA Software",
+  "homepage": "https://monacloud.vn",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mona-software/monacloud-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mona-software/monacloud-cli/issues"
   }
 }
