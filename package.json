@@ -11,8 +11,7 @@
     "bin/",
     "templates/",
     "README.md",
-    "docs/",
-    "STATUS.md"
+    "docs/"
   ],
   "scripts": {
     "test": "node --test"
